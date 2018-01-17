@@ -78,7 +78,7 @@ func main() {
 				avg /= len(values)
 				values = values[:0]
 
-				log.Printf("min time: %v max time: %v avg time: %d us", minTime, maxTime, avg)
+				log.Printf("min time: %v max time: %v avg time: %d µs", minTime, maxTime, avg)
 			}
 		}
 	}
